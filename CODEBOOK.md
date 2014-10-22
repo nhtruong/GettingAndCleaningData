@@ -8,7 +8,6 @@
 --------------------------------------
 
 ### Variables:
-  
 ###### SUBJECT:
     Integers from 1 to 30 representing 30 test subjects
 ###### ACTIVITY:
