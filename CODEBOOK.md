@@ -14,10 +14,15 @@
 ##### ACTIVITY:
   One of 6 activities:
   1 WALKING
+  
   2 WALKING_UPSTAIRS
+  
   3 WALKING_DOWNSTAIRS
+  
   4 SITTING
+  
   5 STANDIND
+  
   6 LAYING
 ##### AVERAGES (Last 79 Columns):
   Numerical Data of Averages of the original columns as they are divided by the first two columns (Subject and Activity)
