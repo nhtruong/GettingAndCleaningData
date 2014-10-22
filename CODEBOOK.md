@@ -10,11 +10,12 @@
 ### Variables:
   
 ###### SUBJECT:
-  Integers from 1 to 30 representing 30 test subjects
+    Integers from 1 to 30 representing 30 test subjects
 ###### ACTIVITY:
-  One of 6 activities:WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDIND, LAYING
+    One of 6 activities:WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDIND, LAYING
 ###### AVERAGES (Last 79 Columns):
-  Numerical Data of Averages of the original columns as they are divided by the first two columns (Subject and Activity)
+    Numerical Data of Averages of the original columns as they are divided 
+    by the first two columns (Subject and Activity)
 ### How the data came about:
   
 
