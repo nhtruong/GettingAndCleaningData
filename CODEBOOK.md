@@ -16,6 +16,10 @@
     Numerical Data of Averages of the original columns as they are divided 
     by the first two columns (Subject and Activity)
     
+    *Note: I could've listed in details what these 79 columns are exactly are by paraphasing the text 
+    in the feature_info.txt file from the original data set. However, that would be a waste of time
+    since the purpose of the project is cleaning data.
+    
 --------------------------------------
 
 ### How the data came about:
