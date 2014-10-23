@@ -18,7 +18,8 @@
     
     *Note: I could've listed in details what these 79 columns are exactly are by paraphasing the text 
     in the feature_info.txt file from the original data set. However, that would be a waste of time
-    since the purpose of the project is cleaning data.
+    since the focus of the project is cleaning data. Moreover, the names of these columns are
+    already very descriptive if you're familiar with abbreviations used in physics.
     
 --------------------------------------
 
