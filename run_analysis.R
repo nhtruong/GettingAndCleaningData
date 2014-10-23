@@ -43,13 +43,11 @@ train    = cbind(subjects_train,activities_train,measures_train)
 test     = cbind(subjects_test ,activities_test ,measures_test )
 data     = rbind(train,test)
 
-
 ### Function to calculate the measures' averages of each group
 getAverageMeasures  <- function(group) {
      means = colMeans(group[,3:length(group)])
      cbind(group[1,1:2],t(means))
 }
-
 
 ### Split and group data by Activities and Subjects, calculate averages for each componen, then merge
 data  = split(data,data[,1:2])
@@ -58,4 +56,3 @@ data  = do.call('rbind',data)
 
 ### Output the final result as a text file in the working directory
 write.table(data,file = 'tidy_data_set.txt', row.names = F)
-
