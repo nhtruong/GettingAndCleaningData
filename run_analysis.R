@@ -1,4 +1,4 @@
-### Locations of relevant files (Make sure this is correct before attempting to run this script)
+### Locations of relevant files (Make sure these are correct before attempting to run this script)
 activity_labels.txt      = 'UCI HAR Dataset/activity_labels.txt'
 features.txt             = 'UCI HAR Dataset/features.txt'
 
@@ -17,7 +17,6 @@ all_feat       = read.table(features.txt, header = F, sep = " ", stringsAsFactor
 feat_pattern   = '-(mean|std)([A-Z]|\\x28)'       # \\x28 represents UTF-8 open parenthesis
 feat_idx       = grep(pattern = feat_pattern, x = all_feat[,2])
 feat           = all_feat[feat_idx,]
-
 
 ### Load measure columns that match the features selected above
 colClasses           = rep('NULL',nrow(all_feat))
