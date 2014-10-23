@@ -1,5 +1,12 @@
 GettingAndCleaningData
 ======================
+### About this Repo
+
+This is a submission for "Getting And Cleaning Data" course's Peer Reviewed Project:
+* __UCI HAR Dataset__ is the the folder of raw and origin data
+* __run_analysis.R__ is the R script that extract relevant data from the raw data
+* __tidy_data_set.txt__ is the output of the R script
+* __GettingAndCleaningData.Rproj__ is the R Studio project file (ignore if you don't use R Studio)
 
 ### Instructions on how to execute 'run_analysis.R'
 
